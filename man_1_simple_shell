@@ -1,7 +1,7 @@
 .TH SIMPLE_SHELL "1" "November 8, 2022" "Simple Shell Manual Page"
 
 .SH NAME
-.B lsh 
+.B lsh
 -Simple shell implementation of command line - Holberton Project
 .PP
 
@@ -31,7 +31,7 @@ Where hsh would be the file to execute:
 .B $ ./hsh
 .P
 .RE
-Simple Shell would be run in interactive mode by executing the hsh. Once you execute it, a prompt ($ ) will appear waiting for you to type a command followed by an enter. Once you press enter the shell will execute the command and a new prompt ('$') will appear again expecting a new command. Until you type exit or ctrl D.  
+Simple Shell would be run in interactive mode by executing the hsh. Once you execute it, a prompt ($ ) will appear waiting for you to type a command followed by an enter. Once you press enter the shell will execute the command and a new prompt ('$') will appear again expecting a new command. Until you type exit or ctrl D.
 
 The non-interactive mode uses shell scripts. This includes the use of piping ('|'). Example:
 .P
@@ -47,7 +47,7 @@ The non-interactive mode uses shell scripts. This includes the use of piping ('|
 - Prints all the environmental variables of Simple shell.
 .P
 .B #
-- Ignores or takes as comments all the commands or things typed after the '#' character. 
+- Ignores or takes as comments all the commands or things typed after the '#' character.
 .SH Pipelines
 This shell does not handle with pipelines |.
 
